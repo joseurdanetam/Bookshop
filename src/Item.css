@@ -1,0 +1,62 @@
+.item {
+  display: inline-block;
+  padding: 10px;
+  margin: 15px;
+  width: 218px;
+  vertical-align: top;
+}
+.item .image img {
+  height: 310px;
+}
+
+.item .titleBook {
+  font-weight: bold;
+  font-size: 18px;
+  height: 50px;
+  text-align: center;
+}
+
+.item .actions {
+  width: 100%;
+  border-top: solid 1px #bbb;
+  padding: 5px 0;
+  margin-top: 8px;
+}
+
+.item .actions button {
+  border: 0;
+  border-radius: 3px;
+  background-color: rgb(232, 10, 10);
+
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.item .actions button:hover {
+  background-color: rgb(210, 0, 0);
+}
+
+.item .ratingCenter {
+  text-align: center;
+}
+
+.item .star {
+  width: 25px;
+}
+
+.item .rating {
+  display: flex;
+  justify-content: center;
+}
+
+.item .spanRating {
+  font-size: 20px;
+}
+
+.item .select:hover {
+  outline: none;
+  border: 1px solid #bbb;
+}

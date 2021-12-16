@@ -1,0 +1,22 @@
+.containerFooter {
+  background-color: var(--navColor);
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 2px 0;
+  max-width: 100%;
+}
+
+.containerFooter .CreatorsTittle {
+  color: var(--white);
+}
+
+.containerFooter .CreatorsTittle span {
+  font-size: 23px;
+}
+
+.containerFooter .icon {
+  cursor: pointer;
+  margin-left: 20px;
+}

@@ -1,0 +1,15 @@
+.buttonAdd {
+  color: var(--white);
+  font-size: 15px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: var(--navColor);
+  border: none;
+  border-radius: 2px;
+}
+
+.buttonCancel {
+  background-color: rgb(255, 255, 255);
+  color: rgb(82, 82, 82);
+}
