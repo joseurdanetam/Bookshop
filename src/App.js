@@ -176,7 +176,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
-        <Menu title="Library" onadd={this.onAdd} onsearchApp={this.onSearch} />
+        <Menu title="Bookshop" onadd={this.onAdd} onsearchApp={this.onSearch} />
         <List
           items={this.state.copyBooks}
           onupdateratingApp={this.onUpdateRating}
